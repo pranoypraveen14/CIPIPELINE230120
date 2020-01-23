@@ -17,27 +17,3 @@ var server = app.listen(9000, "0.0.0.0",function () {
   console.log("Example app listening at http://%s:%s",host, port)
 
 })
-
-data.json
------------
-
-{
-   "user1" : {
-      "name" : "mahesh",
-      "password" : "password1",
-      "profession" : "OUC",
-      "id": 1
-   },
-   "user2" : {
-      "name" : "suresh",
-      "password" : "password2",
-      "profession" : "SD",
-      "id": 2
-   },
-   "user3" : {
-      "name" : "ramesh",
-      "password" : "password3",
-      "profession" : "SE",
-      "id": 3
-   }
-}
